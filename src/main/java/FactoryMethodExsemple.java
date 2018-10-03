@@ -3,6 +3,7 @@ public class FactoryMethodExsemple {
     interface  Pizzsa{
 
     };
+
     //класс орписание типа на основание интерфейса .т.е набора контракотов которые надо реализовать
     class ChigagoPizzsa implements Pizzsa{
 
@@ -50,5 +51,7 @@ public class FactoryMethodExsemple {
             return new PiterPizzsca();
         }
     }
+
+
 
 }
